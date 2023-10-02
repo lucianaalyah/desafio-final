@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Final - Elas na Tech ♥</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="Normalize.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="index.html">
+
+    <link rel="shortcut icon" type="imagex/png" href="./imagens/girl-power.ico">
+</head>
+
+<body>
+    <div class="wrappercontainer wrappercontainer-dark wrappercontainer-fixed">
+        <header class="header">
+            <img src="Imagens/Logo-elas-na-tech-footer.svg" alt="[Elas na_Tech]" class="header_logo">
+            <span id="hamburguer" class="material-symbols-rounded">
+                menu
+            </span>
+            <nav id="itens_menu" class="header-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#futuro">Futuro</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <script>
+        var hamburguer = document.getElementById('hamburguer');
+        var itensMenu = document.getElementById('itens_menu');
+
+        hamburguer.addEventListener('click', aparecer);
+
+        function aparecer(){
+            if(itensMenu.style.display == 'block'){
+                itensMenu.classList.remove('show');
+            }else{
+                itensMenu.classList.toggle('show');
+            }
+        }
+    </script>
+
+<div class="wrappercontainer wrappercontainer-light">
+        <section id="home" class="content">
+            <article class="box">
+                <h1>♥ Elas na Tech 2023 ♥</h1>
+                <h2>Como o Elas na Tech 2023 mudou a minha vida:</h2>
+                <div class="container">
+                    <ul>
+                        <li> ♥ Conheci pessoas incríveis e aprendi mais sobre informática além de ter feito novas amizades.</li>
+                        <li> ♥ Agradeço especialmente a profa. Gil Chaves e Vanessa Mainara, pelo aprendizado, simpatia e carinho!</li>
+                        <br>
+                        <p> Meu nome é Luciana, tenho 46 anos e desde os 19 terminei minha graduação de Tecnologia em Processamento de Dados. Com esta idade, eu não pensava em como a informática poderia abrir meus caminhos profissionais, mas sempre gostei de projetos, análises e raciocínio lógico.
+                            Mesmo assim a vida me levou a outras oportunidades e apenas agora pude me dedicar a aprender o que sempre fui fã.
+                            O que também não foi fácil, pois tive que recomeçar do zero, afinal eu não utilizei meus conhecimentos nesta área por muito tempo.
+                            Quando conheci o programa Elas na Tech, fiquei meio incrédula, achando impossível que sua proposta fosse atingir tantas mulheres e ensinar tão tranquilamente algo que muitas sequer conheciam.
+                            Fui surpreendia positivamente e aqui estou. Aprendi tanto em tão pouco tempo!
+                            Este projeto foi muito além do que apenas ensinar. Hoje inspiro meus filhos a seguirem seus sonhos com paixão e determinação!
+                            O meu desejo é poder ensinar da mesma forma que aprendi, com amor e dedicação.</p>
+                            <br>
+                            <a href="https://jabrasil.org.br/elasnatech23/" class="btn">Saiba mais!</a></p>
+                    </ul>
+                    
+                    
+                    <iframe src="https://jabrasil.org.br/elasnatech23/" frameborder="0" width="50%" height="500px"></iframe>
+                </div>
+            </article>
+        </section>
+    </div>
+    
+    <div class="wrappercontainer wrappercontainer-dark2">
+        <section id="futuro" class="content">
+            <article class="box">
+                <div class="wrappercontainer wrappercontainer-dark2">
+                    <section id="card" class="cardscontent">
+                        <h1>O futuro é nosso!</h1>
+                        <div class="cardscontainer">
+                            <article class="card" id="Mulheres na Tecnologia">
+                                <img src="Imagens/pexels-cottonbro-studio-5076523.jpg" alt="Mulheres na Tecnologia" width="150px" height="400">
+                                <div class="cards_container">
+                                    <h2>Mulheres na Tecnologia</h2>
+                                    <p>As mulheres têm desempenhado um papel cada vez mais importante na área da tecnologia, contribuindo com inovação, liderança e habilidades técnicas. No entanto, ainda há desafios a serem superados para alcançar uma representação igualitária.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="card" id="Mulheres pelo Mundo">
+                                <img src="Imagens/pexels-pavel-danilyuk-8438979.jpg" alt="Futuras Devs" width="150px" height="400">
+                                <div class="cards_container">
+                                    <h2>Mulheres pelo Mundo</h2>
+                                    <p>A tecnologia tem ajudado as mulheres de várias maneiras, proporcionando acesso a oportunidades educacionais, empoderamento econômico, acesso a informações e recursos, além de criar plataformas para compartilhar histórias e ampliar suas vozes.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="card" id="Futuras Devs">
+                                <img src="Imagens/pexels-michelangelo-buonarroti-8728223.jpg" alt="Mulheres pelo Mundo" width="150px" height="400">
+                                <div class="cards_container">
+                                    <h2>Futuras Devs</h2>
+                                    <p>"Elas na Tech" é uma iniciativa que busca incentivar a participação e o desenvolvimento das mulheres na área de tecnologia, oferecendo capacitação, mentoria e oportunidades de networking. É uma ótima iniciativa para promover a igualdade de gênero no setor.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </article>
+        </section>
+    </div>
+   
+    
+    <div class="wrappercontainer wrappercontainer-light">
+        <section id="portfolio" class="content">
+            <h1>Portfólio</h1>
+            <p><a href="https://github.com/lucianaalyah/inicial" class="btn">Clique aqui!</a></p>
+            <article class="box">
+                <ul>
+                    <li>
+                        <a href="https://lucianaalyah.github.io/desafio-1/" target="_blank">
+                            <img src="Imagens/desafio1.png" width="350px" class="port"> 
+                        </a>
+                        
+                    <li>
+                        <a href="https://lucianaalyah.github.io/desafio-2/" target="_blank">
+                            <img src="Imagens/desafio2.png" width="350px" class="port">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lucianaalyah.github.io/desafio-3/" target="_blank">
+                            <img src="Imagens/desafio3.png" width="350px" class="port">
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="https://lucianaalyah.github.io/desafio-4/" target="_blank">
+                            <img src="Imagens/desafio4.png" width="350px" class="port">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lucianaalyah.github.io/desafio-5/" target="_blank">
+                            <img src="Imagens/desafio5.png" width="350px" class="port">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lucianaalyah.github.io/desafio-6/" target="_blank">
+                            <img src="Imagens/desafio6.png" width="350px" class="port">
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="https://lucianaalyah.github.io/desafio-7/" target="_blank">
+                            <img src="Imagens/desafio7.png" width="350px" class="port">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lucianaalyah.github.io/desafio-8/" target="_blank">
+                            <img src="Imagens/desafio8.png" width="350px" class="port">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://lucianaalyah.github.io/desafio-9/" target="_blank">
+                            <img src="Imagens/desafio9.png" width="350px" class="port">
+                        </a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </div>
+
+    <div class="wrappercontainer wrappercontainer-dark2">
+        <section id="contatos" class="content">
+            <h1>♥ Meus Contatos ♥</h1>
+            <article class="box">
+                <br>
+                <img src="Imagens/Eu.jpg" width="200px" height="200" class="contato">
+                
+                <br>
+                <p>
+                    E-mail: luciana.alyah@gmail.com <br>
+                    Tel.: +55 21 96735-3348
+                </p>
+            </article>
+        </section>
+    </div>
+</body>
+
+    <div class="wrappercontainer wrappercontainer-dark">
+        <footer id="rodape" class="rodapecontato">
+               
+            <div class="redes">
+                    <div class="imagens">
+                        <a href="https://wa.me/5521967353348"><img src="Imagens/whatsapp.png" alt="Whatsapp"></a>
+                    </div>
+                    <div class="imagens">
+                        <a href="https://www.instagram.com/lucianaalyah/"><img src="Imagens/instagram.png" alt="Instagram"></a>
+                    </div>
+                    <div class="imagens">
+                        <a href="https://www.linkedin.com/in/luciana-silveira-de-freitas"><img src="Imagens/linkedin.png" alt="LinkedIn"></a>
+                    </div>
+                    <div class="imagens">
+                        <a href="https://github.com/lucianaalyah/inicial"><img src="Imagens/github.png" alt="GitHub"></a>
+                    </div>
+            </div>
+                <p>Todos os Direitos Reservados - Luciana Silveira de Freitas</p>
+                <p>♥ Elas na Tech 2023♥</p>
+            
+        </footer>
+    </div>
+</html>
+
+
